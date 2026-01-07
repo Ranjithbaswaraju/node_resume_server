@@ -12,10 +12,10 @@ const postResume=(req,res)=>{
     else{
         res.status(200).json({
         message:"Resume read successfully",
-        data:data,
+        text:data,
         length:data.length
     })
-    console.log(data)
+    console.log(text)
     
     }
 }
