@@ -15,7 +15,7 @@ const postResume=(req,res)=>{
         text:data,
         length:data.length
     })
-    console.log(text)
+    console.log(data)
     
     }
 }
